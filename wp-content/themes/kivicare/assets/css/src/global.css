@@ -1,0 +1,180 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Imports
+	# Custom properties
+	# Reset
+	# Typography
+	# Elements
+	# bLOCKS
+	# Media
+	# Links
+	# Header
+	# Footer
+# Accessibility
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Imports
+--------------------------------------------------------------*/
+@import "_custom-properties.css";
+@import "_reset.css";
+@import "_typography.css";
+@import "_elements.css";
+@import "_blocks.css";
+@import "_media.css";
+@import "_links.css";
+@import "_header.css";
+@import "_burger-menu.css";
+@import "_footer.css";
+@import "_search.css";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+
+/**
+ * Text meant only for screen readers.
+ * Re: word-wrap: Many screen reader and browser combinations announce broken
+ * words as they would appear visually.
+ */
+
+
+
+
+.elementor-widget-sidebar .search-form input[type=search] ,.primary-sidebar.widget-area .search-form input[type=search]{
+    background: var(--color-theme-white);
+}
+
+.shap-main{
+	position: relative;
+}
+.shap-main:before {
+    content: "";
+    position: absolute;
+    background:var(--color-theme-secondary);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: -10px;
+    left: -10px;
+}
+
+.shap-main.first::before {
+	width: 91%;
+	height: 95%;
+	left: 0;
+}
+
+.shap-main.second::before {
+	width: 92%;
+	height: 95%;
+	left: 15px;
+}
+.kivicare .home .content-area .site-main {
+    padding: 0;
+}
+
+.footer-mail {
+	position: relative;
+}
+.footer-mail button{
+	position: absolute;
+    right: 0;
+    background: var(--color-theme-primary);
+    outline: none;
+    border: none;
+    padding: 19px 19px;
+    color:var(--color-theme-white);
+	letter-spacing: var(--letter-spacing);
+	cursor: pointer;
+	transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; 
+}
+.footer-mail button:hover{
+	background: var(--color-theme-secondary);
+}
+
+.footer-mail input {
+	padding-right: 175px;
+}
+
+/*---------------------------------------------------------------------
+Scrollbar
+-----------------------------------------------------------------------*/
+.scrollbar-thumb,
+.scrollbar-track-y {
+	width: 4px !important;
+}
+
+.scrollbar-thumb {
+	background: var(--color-theme-primary) !important;
+}
+
+.yScroller::-webkit-scrollbar {
+	display: none;
+}
+
+.yScroller {
+	scrollbar-width: none;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ccc !important;
+}
+
+#headScroller::-webkit-scrollbar-thumb {
+	background: var(--white-light-color) !important;
+}
+
+/*--------------------------------------------------------------
+# Nice Select Dropdown
+--------------------------------------------------------------*/
+.nice-select.wide{background: var(--color-theme-white);border-radius: var(--border-radius);}
+.nice-select.wide .list { z-index: 99; overflow-y: auto; overflow-x: hidden; max-height: 200px; -webkit-box-shadow: 0px 0px 87.3px 2.7px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0px 0px 87.3px 2.7px rgba(0, 0, 0, 0.06); box-shadow: 0px 0px 87.3px 2.7px rgba(0, 0, 0, 0.06); border: 1px solid var(--color-theme-primary); border-radius: var(--border-radius); }
+.nice-select.wide .list::-webkit-scrollbar-thumb, body .stm_compare_cars_footer_modal.stm-open .stm-compare-list-wrap::-webkit-scrollbar-thumb { width: 4px; border-radius: var(--border-radius); -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0); }
+.nice-select.wide .list::-webkit-scrollbar, body .stm_compare_cars_footer_modal.stm-open .stm-compare-list-wrap::-webkit-scrollbar { width: 4px; }
+.nice-select.wide .list::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0); border-radius: var(--border-radius); }
+.nice-select, .nice-select.form-control { line-height: 55px; height: 55px; font-size: 16px; padding: 0 30px 0 20px; border: 1px solid rgba(82, 95, 129, 0.09);background: var(--white-light-color);}
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus { color: var(--color-theme-primary); background-color: transparent; }
+.nice-select:hover, .nice-select:focus { border-color: var(--color-theme-primary); }
+input.form-control { line-height: 55px; height: 55px; }
+.nice-select .list:hover .option:not(:hover) { color: var(--title-color); }
+.nice-select:after { content: "\f0dd"; font-family: 'Font Awesome 5 Free'; font-weight: 900; border: none; width: auto; height: auto; display: inline-block; position: absolute; top: 46%; transform: translate(0, -50%); margin: 0;right: 20px; }
+.nice-select.open:after { transform: translate(0, -50%);  right: 20px;}
+.nice-select.wide .list li{padding-bottom:5px;padding-top:5px;margin-bottom:0; white-space: normal;} 
+
+@media screen and (max-width:1330px) and (min-width:1200px){
+	.content-area .site-main {
+		padding: 90px 15px 200;
+	}
+	
+}
+@media screen and (max-width:1199px) and (min-width:1025px){
+	.content-area .site-main {
+		padding: 90px 15px;
+	}
+	
+}
+@media(max-width:768px){
+  	.elementor-image-box-img img{
+		margin-bottom: 15px;
+	}
+}
+@media(max-width:480px){
+	
+	.footer-mail button{
+	  /* margin-top: 30px;
+	  position: relative; */
+	}
+	.footer-mail{
+	  text-align: center;
+	}
+
+	.footer-mail input {
+		padding-right: 15px;
+	}
+	
+  }
+
+.bypostauthor { display: block; }

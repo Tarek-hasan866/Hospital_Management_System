@@ -1,0 +1,65 @@
+
+---Downloaded files---
+The import files for: All Content were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/site4
+Data file = G:\software new\xampp\htdocs\site4/wp-content/themes/kivicare/inc/Import/Demo/kivicare-content.xml
+Widget file = G:\software new\xampp\htdocs\site4/wp-content/themes/kivicare/inc/Import/Demo/kivicare-widget.wie
+Customizer file = G:\software new\xampp\htdocs\site4/wp-content/themes/kivicare/inc/Import/Demo/kivicare-export.dat
+Redux files:
+kivicare-options -> G:\software new\xampp\htdocs\site4/wp-content/themes/kivicare/inc/Import/Demo/kivicare_redux.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Footer Area 4 : 
+
+Block - No Title - Imported
+
+Blog Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer Area 1 : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer Area 2 : 
+
+Navigation Menu - Useful Links - Imported
+
+Footer Area 3 : 
+
+Block - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: kivicare-options finished successfully!
+
+---Importing customizer settings---
+Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme.
+
+---ocdi/after_import---
+

@@ -1,0 +1,117 @@
+.qodef-qi-section-title .qodef-e-decorated{
+    font-weight: 300 !important;
+}
+
+.search_count{
+    margin-left: 32px;
+}
+.qodef-qi-business-hours {
+    border: none;
+}
+.qodef-qi-business-hours  .qodef-e-item{
+    border-bottom: 1px solid #FFFFFF26;
+}
+.qodef-qi-business-hours .qodef-e-line{
+    border-bottom: none !important;
+}
+.treatment-icon .elementor-image-box-img img{
+    margin-top: -30px;
+}
+.treatment-icon {
+    top: 0;
+ 
+   
+   transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.treatment-icon:hover{
+    margin-top: -5px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.qodef-qi-team-member .qodef-m-social-icons .qodef-e-social-icon i{
+   
+    line-height: 2.3;
+    width: 40px;
+    height: 40px;
+   
+    text-align: center;
+   
+    margin-bottom: 15px;
+    margin-right: 8px;
+    color: var(--color-theme-white);
+    background: var(--color-theme-primary);
+}
+.qodef-qi-team-member .qodef-m-social-icons .qodef-e-social-icon:hover i{
+    -webkit-transform: translateY(-2px);
+        -moz-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+        -o-transform: translateY(-2px);
+        transform: translateY(-2px);
+}
+.qodef-qi-team-member .qodef-m-social-icons .qodef-e-social-icon:hover i{
+    background-color: var(--color-theme-secondary);
+}
+.qodef-qi-clients-slider .qodef-e-main-image img{
+    opacity: 0.4;
+}
+
+.widget .footer-title{
+    margin-bottom: 0.5rem;
+}
+.img-popup .elementor-image-box-img:hover img{
+  
+    animation: pulse 1s infinite;
+}
+@keyframes pulse {
+    0%,
+    100% {
+      animation-timing-function: ease-in;
+    }
+    50% {
+      transform: scale(1.33);
+    }
+  }
+.img-popup .elementor-image-box-img:hover img{
+    transform: scale(1.33);
+}
+.qodef-qi-progress-bar-horizontal .qodef-m-canvas svg{
+    border-radius: 90px;
+}
+
+.qodef-qi-team-member .qodef-m-inner .qodef-m-image .qodef-m-media-image img {
+    width: 100%;
+}
+
+.qodef-addons-m-pagination  .pagination .page-numbers{
+    border: 1px solid rgba(134, 140, 156, 0.18);
+}
+
+.ui-state-active .qodef-e-mark .qodef-e-icon{
+    color: var(--color-theme-white);
+}
+.qodef-addons-blog-slider .qodef-blog-item .qodef-e-read-more{
+    margin-top: 0;
+}
+.awards-hover .elementor-icon-box-title:hover span{
+    color: var(--color-theme-primary);
+    text-decoration: underline;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.qodef-qi-team-member.qodef-item-layout--info-from-bottom .qodef-m-content{
+    width: auto !important;
+    bottom:0px;
+    right:10px;
+    left:10px;
+}
+.qodef-qi-team-member:hover .qodef-m-content{
+    bottom: 10px;
+}

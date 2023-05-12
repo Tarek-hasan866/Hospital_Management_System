@@ -1,0 +1,1549 @@
+# Copyright (C) 2021 Kivicare Design
+# This file is distributed under the same license as the Kivicare Design package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kivicare Design\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Iqonic Design\n"
+"Report-Msgid-Bugs-To: Kivicare Design\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../kivicare/comments.php:41, ../kivicare/template-parts/content/entry_content.php:32, ../kivicare/template-parts/content/entry_taxonomies.php:27
+msgid " Comments"
+msgstr ""
+
+#: ../kivicare/comments.php:39, ../kivicare/template-parts/content/entry_content.php:30, ../kivicare/template-parts/content/entry_taxonomies.php:25
+msgid " Comment"
+msgstr ""
+
+#: ../kivicare/comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: ../kivicare/comments.php:58, ../kivicare/inc/Actions/Component.php:80
+msgid "Post Comment"
+msgstr ""
+
+#: ../kivicare/comments.php:59
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: ../kivicare/header.php:85, ../kivicare/header.php:80
+msgid "loader"
+msgstr ""
+
+#: ../kivicare/header.php:98
+msgid "Skip to content"
+msgstr ""
+
+#: ../kivicare/searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: ../kivicare/sidebar.php:19
+msgid "Asides"
+msgstr ""
+
+#. translators: 1: required WP version number, 2: required PHP version number, 3: available WP version number, 4: available PHP version number
+#: ../kivicare/inc/back-compat.php:25
+msgid "Kivicare Design requires at least WordPress version %1$s and PHP version %2$s. You are running versions %3$s and %3$s respectively. Please update and try again."
+msgstr ""
+
+#. translators: 1: required WP version number, 2: available WP version number
+#: ../kivicare/inc/back-compat.php:30
+msgid "Kivicare Design requires at least WordPress version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#. translators: 1: required PHP version number, 2: available PHP version number
+#: ../kivicare/inc/back-compat.php:35
+msgid "Kivicare Design requires at least PHP version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:346
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:347
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:349
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:351
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:352
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:353
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:359
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:365
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:371
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:377
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:383
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:389
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:394
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:399
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:404
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:405, ../kivicare/inc/class-tgm-plugin-activation.php:924, ../kivicare/inc/class-tgm-plugin-activation.php:2630, ../kivicare/inc/class-tgm-plugin-activation.php:3677
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:406, ../kivicare/inc/class-tgm-plugin-activation.php:3256
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:407, ../kivicare/inc/class-tgm-plugin-activation.php:3049
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:409
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:411
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:413
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:414
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:415
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:416
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:619
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:620
+msgid "Update Required"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:1034
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:1034, ../kivicare/inc/class-tgm-plugin-activation.php:1031
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:1031
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:1218, ../kivicare/inc/class-tgm-plugin-activation.php:3045
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2079
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2370
+msgid "Required"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2373
+msgid "Recommended"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2389
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2392
+msgid "External Source"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2395
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2412
+msgid "Not Installed"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2418
+msgid "Active"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2416
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2430
+msgid "Update recommended"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2427
+msgid "Requires Update"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2424
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2439
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2485
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2489
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2493
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2497
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2579
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2587
+msgid "Installed version:"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2595
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2607
+msgid "Available version:"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2630
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2644
+msgid "Plugin"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2645
+msgid "Source"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2646
+msgid "Type"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2650
+msgid "Version"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2651
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2705
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2711
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2700
+msgid "Install %2$s"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2781
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2814
+msgid "Install"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2820
+msgid "Update"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2823
+msgid "Activate"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2856
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2854
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2899
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:2897
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3005
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3031
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3255
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3598
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3600
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3612
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3614
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3614, ../kivicare/inc/class-tgm-plugin-activation.php:3606
+msgid "Show Details"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3614, ../kivicare/inc/class-tgm-plugin-activation.php:3606
+msgid "Hide Details"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3615
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3617
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3604
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3606
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3607
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3609
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../kivicare/inc/class-tgm-plugin-activation.php:3595
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../kivicare/inc/import.php:6
+msgid "All Content"
+msgstr ""
+
+#: ../kivicare/inc/import.php:18
+msgid "DEMO IMPORT REQUIREMENTS: Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds. "
+msgstr ""
+
+#: ../kivicare/inc/import.php:18
+msgid "Based on your INTERNET SPEED it could take 5 to 25 minutes. "
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../kivicare/inc/Template_Tags.php:54
+msgid "The theme templating component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: template tag name
+#: ../kivicare/inc/Template_Tags.php:81
+msgid "The template tag %s does not exist."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../kivicare/inc/Template_Tags.php:110
+msgid "The template tag method %1$s registered by theme component %2$s must either be a callable or an array."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../kivicare/inc/Template_Tags.php:121
+msgid "The template tag method %1$s registered by theme component %2$s conflicts with an already registered template tag of the same name."
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../kivicare/inc/Theme.php:57
+msgid "The theme component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: slug
+#: ../kivicare/inc/Theme.php:120
+msgid "No theme component with the slug %s exists."
+msgstr ""
+
+#: ../kivicare/inc/Accessibility/Component.php:66
+msgid "Expand child menu"
+msgstr ""
+
+#: ../kivicare/inc/Accessibility/Component.php:67
+msgid "Collapse child menu"
+msgstr ""
+
+#: ../kivicare/inc/Actions/Component.php:57
+msgid "Read More"
+msgstr ""
+
+#: ../kivicare/inc/Actions/Component.php:90
+msgid "Reply"
+msgstr ""
+
+#: ../kivicare/inc/Comments/Component.php:151
+msgid "New comment(s)"
+msgstr ""
+
+#: ../kivicare/inc/Comments/Component.php:196
+msgid "(Edit)"
+msgstr ""
+
+#: ../kivicare/inc/Comments/Component.php:225
+msgid "Edit"
+msgstr ""
+
+#: ../kivicare/inc/Comments/Component.php:233
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:182
+msgid "%s"
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:220
+msgid "kivicare-bg-over black"
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:417
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:411, ../kivicare/template-parts/content/page_header.php:22
+msgid "Nothing Found"
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:409
+msgid "Search Results for:"
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:460
+msgid "banner"
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:468, ../kivicare/template-parts/breadcrumb/breadcrumb.php:18
+msgid "Home"
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:554
+msgid "Error 404"
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:552
+msgid "Articles posted by : "
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:548
+msgid "Posts tagged"
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:488
+msgid "Search results for : "
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:486
+msgid "Archive by category : "
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:482
+msgid "Blogs"
+msgstr ""
+
+#: ../kivicare/inc/Common/Component.php:558
+msgid "Page"
+msgstr ""
+
+#: ../kivicare/inc/Customizer/Component.php:78
+msgid "Theme Options"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:65, ../kivicare/inc/Nav_Menus/Component.php:67
+msgid "Primary"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:70
+msgid "Secondary"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:75
+msgid "Red"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:80
+msgid "Green"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:85
+msgid "Blue"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:90
+msgid "Yellow"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:95
+msgid "Black"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:100
+msgid "Grey"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:105
+msgid "White"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:110
+msgid "Dusty daylight"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:115
+msgid "Dusty sun"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:132
+msgid "Small"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:133
+msgid "S"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:138
+msgid "Medium"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:139
+msgid "M"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:144
+msgid "Large"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:145
+msgid "L"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:150
+msgid "Larger"
+msgstr ""
+
+#: ../kivicare/inc/Editor/Component.php:151
+msgid "XL"
+msgstr ""
+
+#: ../kivicare/inc/Footer/Component.php:93
+msgid "text-left"
+msgstr ""
+
+#: ../kivicare/inc/Footer/Component.php:94
+msgid "text-right"
+msgstr ""
+
+#: ../kivicare/inc/Footer/Component.php:95
+msgid "text-center"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Component.php:59, ../kivicare/inc/Redux_Framework/Component.php:60
+msgid "Kivicare Design"
+msgstr ""
+
+#: ../kivicare/inc/Sidebars/Component.php:76
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../kivicare/inc/Sidebars/Component.php:78
+msgid "Add widgets here."
+msgstr ""
+
+#. translators: %s: stylesheet handle
+#: ../kivicare/inc/Styles/Component.php:234
+msgid "Invalid theme stylesheet handle: %s"
+msgstr ""
+
+#: ../kivicare/inc/TGM/Component.php:54
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../kivicare/inc/TGM/Component.php:59
+msgid "Elementor"
+msgstr ""
+
+#: ../kivicare/inc/TGM/Component.php:64
+msgid "Mailchimp"
+msgstr ""
+
+#: ../kivicare/inc/TGM/Component.php:69
+msgid "Qi Addons For Elementor"
+msgstr ""
+
+#: ../kivicare/inc/TGM/Component.php:74
+msgid "Redux Framework"
+msgstr ""
+
+#: ../kivicare/inc/TGM/Component.php:79
+msgid "One Click Demo Import"
+msgstr ""
+
+#: ../kivicare/template-parts/content/entry-attachment.php:33
+msgid "Previous:"
+msgstr ""
+
+#: ../kivicare/template-parts/content/entry-attachment.php:43
+msgid "Next:"
+msgstr ""
+
+#: ../kivicare/template-parts/content/entry-attachment.php:49
+msgid "Post navigation"
+msgstr ""
+
+#: ../kivicare/template-parts/content/entry.php:29, ../kivicare/template-parts/content/entry_page.php:20
+msgid "Pages:"
+msgstr ""
+
+#: ../kivicare/template-parts/content/entry_meta.php:62
+msgid "Posted by : "
+msgstr ""
+
+#. translators: %s: post author
+#: ../kivicare/template-parts/content/entry_meta.php:64
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: post author
+#: ../kivicare/template-parts/content/entry_meta.php:67
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../kivicare/template-parts/content/entry_meta.php:89
+msgctxt "post parent"
+msgid "In %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../kivicare/template-parts/content/entry_meta.php:92
+msgctxt "post parent"
+msgid "in %s"
+msgstr ""
+
+#: ../kivicare/template-parts/content/error-404.php:30, ../kivicare/template-parts/content/error-404.php:24, ../kivicare/inc/Redux_Framework/Options/FourZeroFour.php:24
+msgid "404"
+msgstr ""
+
+#: ../kivicare/template-parts/content/error-404.php:42, ../kivicare/inc/Redux_Framework/Options/FourZeroFour.php:44
+msgid "Oops! This Page is Not Found."
+msgstr ""
+
+#: ../kivicare/template-parts/content/error-404.php:53, ../kivicare/inc/Redux_Framework/Options/FourZeroFour.php:50
+msgid "The requested page does not exist."
+msgstr ""
+
+#: ../kivicare/template-parts/content/error-offline.php:14
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr ""
+
+#: ../kivicare/template-parts/content/error.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../kivicare/template-parts/content/error.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../kivicare/template-parts/content/error.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. translators: %s: search query
+#: ../kivicare/template-parts/content/page_header.php:41
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../kivicare/template-parts/content/page_header.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../kivicare/template-parts/footer/info.php:43, ../kivicare/template-parts/footer/info.php:26
+msgid "https://iqonic.design/"
+msgstr ""
+
+#: ../kivicare/template-parts/footer/info.php:43, ../kivicare/template-parts/footer/info.php:26
+msgid "© 2021"
+msgstr ""
+
+#: ../kivicare/template-parts/footer/info.php:43, ../kivicare/template-parts/footer/info.php:26
+msgid " kivicare "
+msgstr ""
+
+#: ../kivicare/template-parts/footer/info.php:43, ../kivicare/template-parts/footer/info.php:26
+msgid ". All Rights Reserved."
+msgstr ""
+
+#: ../kivicare/template-parts/header/navigation-mobile.php:49, ../kivicare/template-parts/header/navigation-mobile.php:43, ../kivicare/template-parts/header/navigation-mobile.php:37, ../kivicare/template-parts/header/navigation.php:48, ../kivicare/template-parts/header/navigation.php:42, ../kivicare/template-parts/header/navigation.php:36, ../kivicare/inc/Redux_Framework/Options/Logo.php:44
+msgid "kivicare"
+msgstr ""
+
+#: ../kivicare/template-parts/header/navigation.php:14
+msgid "Main menu"
+msgstr ""
+
+#: ../kivicare/template-parts/header/navigation.php:100, ../kivicare/template-parts/header/navigation.php:78, ../kivicare/inc/Redux_Framework/Options/Header.php:294
+msgid "Search"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:43
+msgid "Page Banner Setting"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:46
+msgid "This section contains options for Page Breadcrumbs Area."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:53
+msgid "Select pages for hide banner"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:62
+msgid "Default Banner Image"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:64
+msgid "Upload default banner image for your Website. Default will be blank."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:64
+msgid "(Note:Only Display Banner Style Second & Third)"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:70
+msgid "Select Banner Style"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:71
+msgid "Select the style that best fits your needs."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:101
+msgid "Display Banner on inner Pages"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:103, ../kivicare/inc/Redux_Framework/Options/Banner.php:114, ../kivicare/inc/Redux_Framework/Options/Banner.php:130, ../kivicare/inc/Redux_Framework/Options/Footer.php:44, ../kivicare/inc/Redux_Framework/Options/Footer.php:76, ../kivicare/inc/Redux_Framework/Options/Footer.php:107, ../kivicare/inc/Redux_Framework/Options/Footer.php:207, ../kivicare/inc/Redux_Framework/Options/General.php:95, ../kivicare/inc/Redux_Framework/Options/Loader.php:31
+msgid "Yes"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:104, ../kivicare/inc/Redux_Framework/Options/Banner.php:115, ../kivicare/inc/Redux_Framework/Options/Banner.php:131, ../kivicare/inc/Redux_Framework/Options/Footer.php:45, ../kivicare/inc/Redux_Framework/Options/Footer.php:77, ../kivicare/inc/Redux_Framework/Options/Footer.php:108, ../kivicare/inc/Redux_Framework/Options/Footer.php:208, ../kivicare/inc/Redux_Framework/Options/General.php:96, ../kivicare/inc/Redux_Framework/Options/Loader.php:32
+msgid "No"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:106, ../kivicare/inc/Redux_Framework/Options/Banner.php:122, ../kivicare/inc/Redux_Framework/Options/Banner.php:138, ../kivicare/inc/Redux_Framework/Options/Blog.php:68, ../kivicare/inc/Redux_Framework/Options/Blog.php:80, ../kivicare/inc/Redux_Framework/Options/Blog.php:113, ../kivicare/inc/Redux_Framework/Options/Footer.php:110, ../kivicare/inc/Redux_Framework/Options/Footer.php:210, ../kivicare/inc/Redux_Framework/Options/General.php:98, ../kivicare/inc/Redux_Framework/Options/Header.php:285, ../kivicare/inc/Redux_Framework/Options/Header.php:342, ../kivicare/inc/Redux_Framework/Options/Loader.php:34
+msgid "yes"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:112
+msgid "Display Breadcrumbs on Banner"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:128
+msgid "Display Breadcrumbs on Title"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:145
+msgid "Select Breadcrumbs Title Tag"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:166
+msgid "Set Title Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:180
+msgid "Banner Background Type"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:192, ../kivicare/inc/Redux_Framework/Options/General.php:63
+msgid "Set Body Image"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:195, ../kivicare/inc/Redux_Framework/Options/General.php:66
+msgid "Upload Image for your body."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:202, ../kivicare/inc/Redux_Framework/Options/Header.php:111, ../kivicare/inc/Redux_Framework/Options/Header.php:363
+msgid "Set Background Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:211
+msgid "Background Opacity Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:215
+msgid "Select this option for Background Opacity Color."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:228
+msgid "Background Gradient Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Banner.php:230
+msgid "Choose body Gradient background color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:21
+msgid "Blog"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:28
+msgid "General Blogs"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:31
+msgid "This section contains options for blog."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:38
+msgid "Blog Page Default Banner Image"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:41, ../kivicare/inc/Redux_Framework/Options/FourZeroFour.php:37
+msgid "Upload banner image for your Website. Otherwise blank field will be displayed in place of this section."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:41
+msgid "(Note:Only Display Banner Style Second & Third in Page Banner Setting)"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:47
+msgid "Blog page Setting"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:48
+msgid "<br />Choose among these structures (Right Sidebar, Left Sidebar, 1column, 2column and 3column) for your blog section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:50
+msgid "One Columns"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:51
+msgid "Two Columns"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:52
+msgid "Three Columns"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:53, ../kivicare/inc/Redux_Framework/Options/Blog.php:98, ../kivicare/inc/Redux_Framework/Options/Page.php:32
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:54, ../kivicare/inc/Redux_Framework/Options/Blog.php:99, ../kivicare/inc/Redux_Framework/Options/Page.php:33
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:62
+msgid "Previous/Next Pagination"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:63
+msgid "Turn on to display the previous/next post pagination for blog page."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:65, ../kivicare/inc/Redux_Framework/Options/Blog.php:77, ../kivicare/inc/Redux_Framework/Options/Blog.php:110, ../kivicare/inc/Redux_Framework/Options/Header.php:282, ../kivicare/inc/Redux_Framework/Options/Header.php:339
+msgid "On"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:66, ../kivicare/inc/Redux_Framework/Options/Blog.php:78, ../kivicare/inc/Redux_Framework/Options/Blog.php:111, ../kivicare/inc/Redux_Framework/Options/Header.php:283, ../kivicare/inc/Redux_Framework/Options/Header.php:340
+msgid "Off"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:74
+msgid "Featured Image on Blog Archive Page"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:75
+msgid "Turn on to display featured images on the blog or archive pages."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:86
+msgid "Blog Single Post"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:94
+msgid "Blog Single page Setting"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:95
+msgid "<br />Choose among these structures (Right Sidebar, Left Sidebar and 1column) for your blog section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:97, ../kivicare/inc/Redux_Framework/Options/Page.php:31
+msgid "Full Width"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:107
+msgid "Comments"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Blog.php:108
+msgid "Turn on to display comments."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Color.php:21
+msgid "Color Attribute"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Color.php:24
+msgid "Change the default colors of your site."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Color.php:29
+msgid "Set Custom Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Color.php:40
+msgid "Set Primary Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Color.php:41
+msgid "Select primary accent color."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Color.php:50
+msgid "Set Secondary Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Color.php:51
+msgid "Select secondary complementing color."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Color.php:60
+msgid "Title Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Color.php:61
+msgid "Select default Title(Headings) color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Color.php:71
+msgid "Body Text Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Color.php:72
+msgid "Select default body text color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:25
+msgid "Footer"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:32
+msgid "Footer Image"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:35, ../kivicare/inc/Redux_Framework/Options/Footer.php:98
+msgid "This section contains options for footer."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:41
+msgid "Display Footer Background Image"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:42
+msgid "Display Footer Background Image On All page"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:47
+msgid "no"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:53
+msgid "Footer Logo"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:55
+msgid "Upload Footer Logo for your Website."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:63
+msgid "Footer Background Image"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:66
+msgid "Upload Footer image for your Website."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:73
+msgid "Change Footer Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:74
+msgid "Turn on to Change Footer Background Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:79
+msgid "0"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:85
+msgid "Choose Footer Background Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:95
+msgid "Footer Option"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:104
+msgid "Display Footer Top"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:105
+msgid "Display Footer Top On All page"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:116
+msgid "Footer Layout Type"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:118
+msgid "<br />Choose among these structures (1column, 2column and 3column) for your footer section.<br />To fill these column sections you should go to appearance > widget.<br />And add widgets as per your needs."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:120
+msgid "Footer Layout 1"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:121
+msgid "Footer Layout 2"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:122
+msgid "Footer Layout 3"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:123
+msgid "Footer Layout 4"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:124
+msgid "Footer Layout 5"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:132
+msgid "Select 1 Footer Alignment"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:145
+msgid "Select 2 Footer Alignment"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:158
+msgid "Select 3 Footer Alignment"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:171
+msgid "Select 4 Footer Alignment"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:184
+msgid "Select 5 Footer Alignment"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:197
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:205
+msgid "Display Copyrights"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:215
+msgid "Copyrights Alignment"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:229
+msgid "Copyrights Text"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Footer.php:230
+msgid "© 2021 kivicare. All Rights Reserved."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/FourZeroFour.php:27
+msgid "This section contains options for 404."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/FourZeroFour.php:34
+msgid "404 Page Default Banner Image"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/FourZeroFour.php:43
+msgid "404 Page Title"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/FourZeroFour.php:49
+msgid "404 Page Description"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/General.php:20
+msgid "General"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/General.php:27
+msgid "Body Layout"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/General.php:39
+msgid "Grid Container Width"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/General.php:40
+msgid "Adjust Your Site Container Width With Help Of Above Option."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/General.php:49
+msgid "Body Set Option"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/General.php:50
+msgid "Select this option for body color or image of the theme."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/General.php:72
+msgid "Set Body Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/General.php:73
+msgid "Choose Body Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/General.php:84
+msgid "Back to Top"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/General.php:92
+msgid "\"Back to top\" Button"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/General.php:93
+msgid "Turn on to show \"Back to top\" button."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:44
+msgid "Header"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:51, ../kivicare/inc/Redux_Framework/Options/Header.php:60
+msgid "Header Layout"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:54
+msgid "This section contains options for Menu ."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:62, ../kivicare/inc/Redux_Framework/Options/Header.php:85, ../kivicare/inc/Redux_Framework/Options/Header.php:100, ../kivicare/inc/Redux_Framework/Options/Header.php:136, ../kivicare/inc/Redux_Framework/Options/Header.php:167, ../kivicare/inc/Redux_Framework/Options/Header.php:221, ../kivicare/inc/Redux_Framework/Options/Header.php:305, ../kivicare/inc/Redux_Framework/Options/Header.php:352, ../kivicare/inc/Redux_Framework/Options/Header.php:388, ../kivicare/inc/Redux_Framework/Options/Header.php:419
+msgid "Default"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:63, ../kivicare/inc/Redux_Framework/Options/Header.php:137, ../kivicare/inc/Redux_Framework/Options/Header.php:168, ../kivicare/inc/Redux_Framework/Options/Header.php:222, ../kivicare/inc/Redux_Framework/Options/Header.php:306, ../kivicare/inc/Redux_Framework/Options/Header.php:389, ../kivicare/inc/Redux_Framework/Options/Header.php:420
+msgid "Custom"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:71
+msgid "Header container"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:73
+msgid "full width"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:74
+msgid "Container"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:83
+msgid "Header Position"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:86
+msgid "Over"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:97, ../kivicare/inc/Redux_Framework/Options/Header.php:349
+msgid "Background"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:98
+msgid "Select the variation for header background"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:101, ../kivicare/inc/Redux_Framework/Options/Header.php:353
+msgid "Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:102, ../kivicare/inc/Redux_Framework/Options/Header.php:354
+msgid "Image"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:103, ../kivicare/inc/Redux_Framework/Options/Header.php:355
+msgid "Transparent"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:105, ../kivicare/inc/Redux_Framework/Options/Header.php:139, ../kivicare/inc/Redux_Framework/Options/Header.php:170, ../kivicare/inc/Redux_Framework/Options/Header.php:308, ../kivicare/inc/Redux_Framework/Options/Header.php:357, ../kivicare/inc/Redux_Framework/Options/Header.php:391, ../kivicare/inc/Redux_Framework/Options/Header.php:422
+msgid "default"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:121, ../kivicare/inc/Redux_Framework/Options/Header.php:373
+msgid "Upload Image"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:124
+msgid "Upload background image for header."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:133, ../kivicare/inc/Redux_Framework/Options/Header.php:385
+msgid "Menu Color Options"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:134
+msgid "Select Menu color ."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:145
+msgid "Menu Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:155
+msgid "Menu Hover Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:164, ../kivicare/inc/Redux_Framework/Options/Header.php:415
+msgid "Submenu Color Options"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:165
+msgid "Select submenu color."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:176, ../kivicare/inc/Redux_Framework/Options/Header.php:428
+msgid "Submenu Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:186, ../kivicare/inc/Redux_Framework/Options/Header.php:438
+msgid "Submenu Hover Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:195, ../kivicare/inc/Redux_Framework/Options/Header.php:447
+msgid "Submenu Background Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:204, ../kivicare/inc/Redux_Framework/Options/Header.php:456
+msgid "Submenu Background Hover Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:218
+msgid "Burger Menu"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:219
+msgid "Select color for burger Menu"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:230
+msgid "Toggle Icon color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:239
+msgid "Model Background color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:248, ../kivicare/inc/Redux_Framework/Options/Header.php:397
+msgid "Menu color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:257, ../kivicare/inc/Redux_Framework/Options/Header.php:406
+msgid "Menu hover color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:266
+msgid "Sub Menu Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:279
+msgid "Display Search Icon"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:280
+msgid "Turn on to display the Search in header."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:291
+msgid "Search Text"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:295
+msgid "Enter Header Search Text ."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:302
+msgid "Search Icon"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:303
+msgid "Turn on to display the Search color in header."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:314
+msgid "Icon color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:316
+msgid "Select for button color options."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:327, ../kivicare/inc/Redux_Framework/Options/Header.php:336
+msgid "Sticky Header"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:330
+msgid "This section contains options for sticky header menu and background color."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:337
+msgid "Turn on to display sticky header."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:350
+msgid "Select the variation for sticky header background"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:376
+msgid "Upload background image for sticky header."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:386
+msgid "Select Menu color for sticky."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Header.php:416
+msgid "Select submenu color for sticky."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Loader.php:20
+msgid "Loader"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Loader.php:28
+msgid "kivicare Loader"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Loader.php:40
+msgid "Loader Background Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Loader.php:42
+msgid "Choose Loader Background Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Loader.php:51
+msgid "Add GIF image for loader"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Loader.php:55
+msgid "Upload Loader GIF image for your Website."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Loader.php:64
+msgid "Loader (Width/Height) Option"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Loader.php:65
+msgid "Allows you to choose width, height, and/or unit."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Loader.php:66
+msgid "You can enable or disable any piece of this field. Width, Height, or Units."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Logo.php:20, ../kivicare/inc/Redux_Framework/Options/Logo.php:60, ../kivicare/inc/Redux_Framework/Options/Logo.php:69
+msgid "Logo"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Logo.php:28
+msgid "Select Logo Type"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Logo.php:29
+msgid "Select either Text or image for your Logo."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Logo.php:40
+msgid "Logo Text"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Logo.php:41
+msgid "Enter the text to be used instead of the logo image"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Logo.php:43
+msgid "Please enter correct value"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Logo.php:50
+msgid "Text Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Logo.php:51
+msgid "Choose Text Color"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Logo.php:73, ../kivicare/inc/Redux_Framework/Options/Logo.php:84
+msgid "Upload Logo image for your Website. Otherwise site title will be displayed in place of Logo."
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Logo.php:80
+msgid "Responsive Logo"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Page.php:20
+msgid "Page Settings"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Page.php:28
+msgid "Search page Setting"
+msgstr ""
+
+#: ../kivicare/inc/Redux_Framework/Options/Page.php:29
+msgid "<br />Choose among these structures (Right Sidebar, Left Sidebar and 1column) for your Search page.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""

@@ -1,0 +1,146 @@
+
+.kivicare-btn-container {
+    vertical-align: middle;
+}
+
+.kivicare-button ,
+a.kivicare-button,
+button.kivicare-button,
+.elementor a.kivicare-button {  
+	color: var(--color-theme-white);
+	font-size: var(--font-size-body);
+    font-family: var(--global-font-family);
+    letter-spacing: var(--font-letter-spacing-body);
+	font-weight:var(--font-weight-body) ;
+    line-height: var(--font-line-height-body);
+	background-color: var(--color-theme-primary-dark);
+    border-radius: var(--border-radius);
+    padding: 10px 0px 10px 25px; 
+    position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-transform: capitalize; 
+    cursor:pointer; 
+	border: none; 
+	overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out; 
+}
+
+.kivicare-button:hover,
+a.kivicare-button:hover ,
+button.kivicare-button:hover,
+.elementor a.kivicare-button:hover{	
+	background: var(--color-theme-secondary-dark);
+	color: var(--color-theme-white);
+}
+
+button:hover,
+button:focus {
+    outline: none;
+}
+
+.kivicare-button .text-btn{
+    margin-right: 10px;
+    position: relative; 
+}
+
+.kivicare-button.kivicare-button-link::before,
+a.kivicare-button.kivicare-button-link::before,
+button.kivicare-button.kivicare-button-link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    transition: all .3s ease-in;
+    z-index: 99;
+    background-color: var(--color-theme-secondary);
+}
+
+.kivicare-button.kivicare-button-link:hover:before,
+a.kivicare-button.kivicare-button-link:hover:before,
+button.kivicare-button.kivicare-button-link:hover:before{
+    width: 75%;
+}
+
+.kivicare-button.kivicare-button-link,
+a.kivicare-button.kivicare-button-link,
+button.kivicare-button.kivicare-button-link{
+    background: transparent;
+    font-size: var(--font-size-normal);
+    color: var(--color-theme-primary);
+    font-weight: var(--font-weight-medium);
+    text-transform: uppercase;
+    padding: 0; 
+    box-shadow: none; 
+    letter-spacing: var(--letter-spacing-btn);
+}
+
+.kivicare-button.kivicare-button-link .kivicare-icon-right,
+a.kivicare-button.kivicare-button-link .kivicare-icon-right,
+button.kivicare-button.kivicare-button-link .kivicare-icon-right{
+    padding: 0;
+    background: transparent;
+    margin-left: 5px;
+}
+
+.kivicare-button .kivicare-icon-right {
+    margin-left: 16px;
+}
+
+.kivicare-button .kivicare-icon-right{
+    padding:13px 18px;
+    background-color: var(--color-theme-primary);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out; 
+}
+
+.kivicare-button:hover .kivicare-icon-right{
+    background-color: var(--color-theme-secondary);
+}
+
+.kivicare-button.kivicare-button-link:hover,
+a.kivicare-button.kivicare-button-link:hover,
+button.kivicare-button.kivicare-button-link:hover{
+	background: transparent;
+	color: var(--color-theme-secondary);
+}
+
+.kivicare-button.kivicare-button-link:hover span.main{
+	background: var(--color-theme-secondary);
+}
+
+.kivicare-button.kivicare-button-link{
+    color: var(--color-theme-primary);
+}
+
+.kivicare-button span.main,
+.rs-button span.main,
+.contact-form-button span.main{
+    width: 6px;
+    height: 6px;
+    background-color: var(--color-theme-secondary);
+    display: inline-block;
+	z-index: 1;	
+}
+
+.kivicare-button:hover span.main,
+.rs-button:hover span.main,
+.contact-form-button:hover span.main{
+	background: var(--color-theme-white);
+}
+
+.kivicare-button.kivicare-button-link:hover span.text-btn{color: var(--global-font-title);}
+
+.button-link i {
+	font-size: var(--font-size-body);
+	margin-left: 5px;
+}
